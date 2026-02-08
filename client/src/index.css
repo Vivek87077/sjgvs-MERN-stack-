@@ -1,18 +1,21 @@
-/* Sabse upar Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap");
 
-/* Tailwind Import */
 @import "tailwindcss";
 
-/* Custom Theme */
 @theme {
-  --font-heading: "Poppins", sans-serif;
-  --font-body: "Inter", sans-serif;
+  --color-ngoGreen: #2E7D32;
+  --color-ngoBlue: #1565C0;
+  --color-ngoLight: #F1F8E9;
+  --color-ngoDark: #1B5E20;
 
   --shadow-card: 0 10px 25px rgba(0, 0, 0, 0.1);
+
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
 }
 
-/* Global Base Styles */
+/* Global */
 body {
   font-family: var(--font-body);
+  background: var(--color-ngoLight);
 }
